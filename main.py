@@ -12,3 +12,7 @@ if type_of_conversion.lower() == "length":
     while init_unit not in {"cm", "in", "ft", "yd", "mm", "m", "mi", "km"}:
         print("Invalid Unit.")
         init_unit = input("What Is The Initial Unit You Will Use (cm, in, ft, yd, mm, m, mi, km): ")
+    exit_unit = input("What is the Final Unit You Will Use (cm, in, ft, yd, mm, m, mi, km): ")
+    while exit_unit not in {"cm", "in", "ft", "yd", "mm", "m", "mi", "km"}:
+        print("Invalid Unit.")
+        exit_unit = input("What is the Final Unit You Will Use (cm, in, ft, yd, mm, m, mi, km): ")
